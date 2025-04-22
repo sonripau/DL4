@@ -75,10 +75,10 @@ def transformData(x_train, y_train, x_test, y_test, maxFeatures, seqLength):
 # In[ ]:
 
 
-#x_train, y_train, seqLength = readData("amazon/train_small.txt")
-#x_test, y_test, tmp = readData("amazon/test_small.txt")
+x_train, y_train, seqLength = readData("amazon/train_small.txt")
+x_test, y_test, tmp = readData("amazon/test_small.txt")
 
 #maxFeatures is a hyperparameter
 
-#x_train_int, y_train, x_test_int, y_test = transformData(x_train, y_train, x_test, y_test, maxFeatures, seqLength)
+x_train_int, y_train, x_test_int, y_test = transformData(x_train, y_train, x_test, y_test, maxFeatures, seqLength)
 
