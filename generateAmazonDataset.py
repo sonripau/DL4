@@ -73,6 +73,7 @@ def transformData(x_train, y_train, x_test, y_test, maxFeatures, seqLength):
 
 
 # In[ ]:
+maxFeatures = None
 
 
 x_train, y_train, seqLength = readData("amazon/train_small.txt")
